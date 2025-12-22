@@ -39,7 +39,8 @@ interface = gr.Interface(
     inputs=gr.Image(type="pil"),
     outputs=gr.Label(num_top_classes=2),
     title="AI vs Real Image Detector",
-    description="Upload an image to check whether it is AI-Generated or Real."
+    description="Upload an image to check whether it is AI-Generated or Real.",
+    allow_flagging="never"  
 )
 
 interface.launch(share=True)
