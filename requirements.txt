@@ -1,0 +1,6 @@
+python==3.12.2
+tensorflow==2.16.1
+keras==3.3.3
+gradio==3.50.2
+numpy<2.0
+pillow
